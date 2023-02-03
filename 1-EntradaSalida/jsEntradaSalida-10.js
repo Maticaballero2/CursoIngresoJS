@@ -5,5 +5,21 @@ mostrar el importe con un Descuento del 25 %
 en el cuadro de texto "RESULTADO"*/
 function mostrarAumento()
 {
-	alert("ok");
+	
+	let importe;
+	let resultado;
+	let descuento;
+	let porcentaje;
+
+	importe=txtIdImporte.value;
+
+	importe=parseFloat(importe);
+
+	porcentaje=25;
+
+	descuento= importe*porcentaje/100;
+
+	resultado= importe-descuento;
+
+	txtIdResultado.value=resultado.toFixed(2);
 }
