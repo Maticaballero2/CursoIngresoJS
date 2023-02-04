@@ -1,3 +1,5 @@
+// Matias Leonardo Caballero
+//	DIV-F E/S 06
 /*
 Debemos lograr tomar Los numeros por ID ,
 transformarlos a enteros (parseInt) y Sumarlos.
