@@ -83,5 +83,4 @@ function Materiales ()
 
 	alert("La cantidad total de bolsas que necesitas para " + superficie + " m2 son: " + bolsaCementoTotal + " bolsas de cemento y, " + bolsaCalTotal + " bolsas de cal.");
 
-
 }
